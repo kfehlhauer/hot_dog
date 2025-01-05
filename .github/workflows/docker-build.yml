@@ -38,6 +38,6 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: |
-          ${{ secrets.DOCKER_HUB_USERNAME }}/rust-app:latest
-          ${{ secrets.DOCKER_HUB_USERNAME }}/rust-app:${{ github.sha }}
+          ${{ secrets.DOCKER_HUB_USERNAME }}/hot-dog:latest
+          ${{ secrets.DOCKER_HUB_USERNAME }}/hot-dog:${{ github.sha }}
 
