@@ -1,4 +1,5 @@
 FROM rust:1 AS builder
+WORKDIR /app
 COPY . . 
 
 # Install `dx`
